@@ -28,4 +28,24 @@ Section 2: JavaScript Fundamentals
         6. Hello World - done
                 npm init in a folder
                 create .js file to console.log() a text
-        7. Variables
+        7. Variables  - done
+        8. Concatenation and Interpolation - done
+        9. Objects and Arrays - done
+        10. Relational and Equality Operators - done
+        11. Logical Operators - done
+        12. Conditional Operators - done
+        13. Loops - done
+        14. Functions - done
+        15. Class vs methods - done
+        16. TypeScript vs JavaScript - done
+
+Section 3: Playwright Hands-on Overview
+        17. Playwright Installation - done
+                sudo npm init playwright@latest
+                Here, choose TS, e2e tests should be in tests, for GitHub actions workflow choose false for now, set true for Playwright browsers
+        18. Test Execution with CLI - done
+                npx playwright test
+                npx playwright show-report
+                npx playwright test --project=chromium
+                npx playwright test -g "has title" --project=chromium
+        19. Test Execution with UI - inProgress
